@@ -1,7 +1,5 @@
 import { format } from "date-fns";
-import React, { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
-import Axios from "src/api/Axios";
 import InfoCard from "src/components/cards/InfoCard";
 import { useSearchResults } from "src/hooks/useSearchResults";
 import PropertyType from "src/interfaces/Property";
