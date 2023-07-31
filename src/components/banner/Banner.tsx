@@ -14,6 +14,7 @@ const Banner = () => {
         startDate: new Date().toISOString(),
         endDate: endDate.toISOString(),
         numberOfGuests: 10,
+        region: "Worldwide"
       },
     });
   };
